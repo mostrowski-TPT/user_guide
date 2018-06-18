@@ -79,9 +79,13 @@
     }
 
     .menu-item-title {
+        font-weight: @font-weight-bold;
         margin: @menu-block-title-margin-top 0 @menu-block-title-margin-bottom;
         padding: 0;
         .item-title;
+        .menu-item-title-inner {
+            font-weight: @font-weight-bold;
+        }
     }
 
     .menu-item-body {
@@ -99,8 +103,7 @@
         height: 6px;
         float: none !important;
         padding: 0;
-        position: absolute;
-        //        left: (@menu-block-padding-left);
+        position: absolute; //        left: (@menu-block-padding-left);
         //        bottom: (@menu-block-padding-bottom*10);
         padding-top: (@menu-block-padding-top*2.2);
         .dir-rtl & {
@@ -119,8 +122,7 @@
 
     .page-level-progress-menu-item-indicator-bar {
         height: 6px;
-        background-color: @menu-item-progress-fill-color;
-        //        border-radius: 25px;
+        background-color: @menu-item-progress-fill-color; //        border-radius: 25px;
     }
 
     .menu-item-duration {
@@ -143,7 +145,7 @@
             padding: @button-padding-top (@button-padding-right*2) @button-padding-bottom (@button-padding-left*2);
             background-color: @button-color;
             color: @button-text-color;
-
+            font-weight: @font-weight-regular;
             &:hover {
                 background-color: @button-color-hover;
                 color: @button-text-color-hover;
@@ -201,6 +203,7 @@
                         text-align: center;
                     }
                     .page-level-progress-menu-item {
+                        text-align: center;
                         width: 100px !important;
                         display: inline-block;
                         text-align: center;
@@ -210,6 +213,11 @@
                         left: 50% !important;
                         transform: translateX(-50%);
                         margin: 0 !important;
+                        .page-level-progress-menu-item-indicator {
+                            display: inline-block;
+                            text-align: center;
+                            margin-left: -20px
+                        }
                     }
                 }
             }
@@ -282,12 +290,12 @@
     button {
         border-radius: 25px;
         padding: @button-padding-top (@button-padding-right*2) @button-padding-bottom (@button-padding-left*2);
-        background-color: #1473e6;
+        background-color: @buttonblue;
         color: #fff;
         font-weight: @font-weight-bold;
         &:hover {
-            background-color: darken(#1473e6, 10%);
-            color: @button-text-color-hover;
+            background-color: darken(@buttonblue, 10%) !important;
+            color: #fff !important;
         }
         &.visited {
             background-color: darken(@button-color, 15%);

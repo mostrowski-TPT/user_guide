@@ -45,7 +45,6 @@
     }
 
     .menu-item {
-        max-height: 670;
         margin: 0 auto 0;
         width: 100%;
 
@@ -232,13 +231,10 @@
 }
 
 @media all and (max-width: 500px) {
-    
+
     .menu-item-video {
         width: 240px;
-        
     }
-    
-    
 }
 
 @media all and (min-width: @device-width-medium) {
@@ -269,7 +265,9 @@
                     .menu-item-body-inner {
                         max-width: 40% !important;
                     }
-
+                    .menu-item-graphic {
+                        transform: translateY(-20%);
+                    }
                 }
             }
         }
@@ -332,14 +330,17 @@
 
 
 .menu-item-co-05 {
-    .menu-item-video {
-        background-image: url(course/en/images/landing-animation-post-background.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: 50%;
-        padding: 15% 10% 0;
-        margin-bottom: -4px !important;
-        max-height: 400px;
+    .menu-item-graphic {
+        transform: translateY(0%) !important;
+        .menu-item-video {
+            background-image: url(course/en/images/landing-animation-post-background.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 50%;
+            padding: 15% 10% 0;
+            margin-bottom: -4px !important;
+            max-height: 400px;
+        }
     }
 }
 
@@ -362,12 +363,12 @@
 }
 
 .menu-item-co-15 {
+
     .menu-item-video {
         background-image: url(course/en/images/landing-animation-video-background.svg);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: 50%;
         padding: 15%;
-
     }
 }

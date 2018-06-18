@@ -179,9 +179,10 @@
             &.nth-child-odd {
                 .menu-item-inner,
                 .dir-rtl & .menu-item-inner {
-                    margin: 0 auto;
+                    margin: 0 10px;
                     div.menu-item-graphic {
                         text-align: center;
+
                     }
                     .menu-item-title-inner {
                         text-align: center;
@@ -201,6 +202,11 @@
                     }
                     .menu-item-button {
                         text-align: center;
+                    }
+                    .menu-item-video {
+                        position: relative;
+                        max-width: (@device-width-large/2.8);
+                        margin: 10px;
                     }
                     .page-level-progress-menu-item {
                         text-align: center;
@@ -223,6 +229,16 @@
             }
         }
     }
+}
+
+@media all and (max-width: 500px) {
+    
+    .menu-item-video {
+        width: 240px;
+        
+    }
+    
+    
 }
 
 @media all and (min-width: @device-width-medium) {
@@ -253,6 +269,7 @@
                     .menu-item-body-inner {
                         max-width: 40% !important;
                     }
+
                 }
             }
         }
@@ -305,9 +322,9 @@
 }
 
 //menu items
-
 .menu-item-video {
-    max-width: (@device-width-large/2);
+    position: relative;
+    max-width: (@device-width-large/2.2);
     margin: 10px;
 }
 
@@ -336,11 +353,11 @@
         background-image: url(course/en/images/landing-animation-page-background.svg);
         background-size: contain;
         background-repeat: no-repeat;
-background-position: 50%;
+        background-position: 50%;
         padding: 5% 13% 20%;
-        
-        
-        
+
+
+
     }
 }
 
@@ -351,6 +368,6 @@ background-position: 50%;
         background-repeat: no-repeat;
         background-position: 50%;
         padding: 15%;
-       
+
     }
 }

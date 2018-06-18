@@ -2,7 +2,14 @@
     <div class="menu-item-graphic">
         {{#if _graphic.src}}
             <img src="{{_graphic.src}}" alt="{{_graphic.alt}}" />
+        {{/if}}      
+<!--my code-->
+       
+        {{#if _video.src}}
+            <video class="menu-item-video" src="{{_video.src}}" alt="{{_video.alt}}" autoplay loop />
         {{/if}}
+        
+<!--my code-->
     </div>
     <div class="menu-item-title">
         <div class="menu-item-title-inner h3" role="heading" aria-level="2" tabindex="0">{{{compile displayTitle}}}</div>
@@ -16,9 +23,5 @@
         </button>
     </div>
             <span class="menu-item-duration" role="region" tabindex="0">{{#if _globals._menu._boxmenu.statusLabel}}{{{_globals._menu._boxmenu.statusLabel}}} </span>
-        {{/if}}
-        
-        
-        
-        
+        {{/if}}    
 </div>

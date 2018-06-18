@@ -33,7 +33,6 @@ define([
             // Add percentage of completed components as an aria label attribute
             this.$('.page-level-progress-menu-item-indicator-bar .aria-label').html(this.ariaText + Math.floor(percentageComplete) + '%');
         }
-
     });
 
     return PageLevelProgressMenuView;

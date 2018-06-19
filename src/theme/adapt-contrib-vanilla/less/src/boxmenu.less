@@ -18,7 +18,7 @@
     .menu-header-inner {
         max-width: @device-width-large;
         margin: auto;
-        padding: @menu-header-padding-top 0 @menu-header-padding-bottom;
+        padding: @menu-header-padding-top 0 (@menu-header-padding-bottom*0.6);
         text-align: center;
 
         @media all and (max-width: (@device-width-large + 20px)) {
@@ -37,7 +37,7 @@
 
     .menu-body {
         margin: @menu-block-body-margin-bottom 0;
-        color: @customdarkone;
+        color: #35414c;
 
         a {
             color: @foreground-color-inverted;
@@ -282,13 +282,25 @@
     padding-top: (@menu-block-padding-top*1.2);
     button {
         border-radius: 25px;
-        padding: @button-padding-top (@button-padding-right*2) @button-padding-bottom (@button-padding-left*2);
+        padding: @button-padding-top (@button-padding-right*2) @button-padding-bottom (@button-padding-left*3);
         background-color: #fff;
         color: @button-text-color;
         font-weight: @font-weight-bold;
+        .arrow{
+                display: block;
+                position: absolute;
+            margin-left: -20px;
+            margin-right: auto;
+            }
         &:hover {
             background-color: @button-color-hover;
             color: @button-text-color-hover;
+            overflow: hidden;
+            .arrow{
+              font-size: 1.1em;
+                display: block;
+                position: absolute;
+            }
         }
         &.visited {
             background-color: darken(@button-color, 15%);
@@ -375,4 +387,11 @@
 
 .h1 {
     font-weight: 700;
+    color: #35414c;
+}
+
+.menu-body-bigtext {
+    font-weight: 700;
+    font-size: 2em;
+    color: #35414c;
 }

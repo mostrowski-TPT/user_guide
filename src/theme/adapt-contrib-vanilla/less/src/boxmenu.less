@@ -177,38 +177,37 @@
         }
 
         .menu-body-inner {
+            .learnmore {
+                visibility: hidden;
+            }
             padding: 0;
             .landing-create-examples {
-        -webkit-flex-direction: column;
-    flex-direction: column;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;     
-                
-                
-        .landing-create-examples-create {
-            background-image: url(course/en/images/create-in-minutes-mobile.svg);
-        }
-        .landing-create-examples-share {
-            background-image: url(course/en/images/share-instantly-mobile.svg);
-        }
-        .landing-create-examples-inspired {
-            background-image: url(course/en/images/get-inspired-mobile.svg);
-        }
-        li {
-            padding-top: 65px;
-    padding-bottom: 50px;
-    background-size: 50px;
-    width: 80%;
-                background-position: top;
-                background-repeat: no-repeat;
-        }
-    
-}
-            
-            
-            
+                -webkit-flex-direction: column;
+                flex-direction: column;
+                -webkit-align-items: center;
+                align-items: center;
+                -webkit-justify-content: space-between;
+                justify-content: space-between;
+
+
+                .landing-create-examples-create {
+                    background-image: url(course/en/images/create-in-minutes-mobile.svg);
+                }
+                .landing-create-examples-share {
+                    background-image: url(course/en/images/share-instantly-mobile.svg);
+                }
+                .landing-create-examples-inspired {
+                    background-image: url(course/en/images/get-inspired-mobile.svg);
+                }
+                li {
+                    padding-top: 65px;
+                    padding-bottom: 50px;
+                    background-size: 50px;
+                    width: 80%;
+                    background-position: top;
+                    background-repeat: no-repeat;
+                }
+            }
         }
 
         .menu-item {
@@ -432,10 +431,15 @@
     font-weight: 700;
     font-size: 2em;
     color: #35414c;
+    line-height: 140%;
 }
 
 .arrowdown {
+    margin-left: 5px;
+    display: inline-block;
+    text-align: center;
     cursor: pointer;
+    max-width: 1em;
     font-weight: 700;
     -webkit-transform: rotate(90deg);
 
@@ -462,24 +466,27 @@
     max-width: 1110px;
     padding: 25px @menu-block-padding-top 25px 0;
     margin: 0 auto;
+    list-style: none;
+    .landing-create-examples-create {
+        background-image: url(course/en/images/create-in-minutes.svg);
+    }
+    .landing-create-examples-share {
+        background-image: url(course/en/images/share-instantly.svg);
+    }
+    .landing-create-examples-inspired {
+        background-image: url(course/en/images/get-inspired.svg);
+    }
+    li {
         list-style: none;
-        .landing-create-examples-create {
-            background-image: url(course/en/images/create-in-minutes.svg);
-        }
-        .landing-create-examples-share {
-            background-image: url(course/en/images/share-instantly.svg);
-        }
-        .landing-create-examples-inspired {
-            background-image: url(course/en/images/get-inspired.svg);
-        }
-        li {
-            list-style: none;
-            display: block;
-            width: 250px;
-            padding-top: 300px;
-            background-position: top;
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-    
+        display: block;
+        width: 250px;
+        padding-top: 300px;
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
 }
+.learnmore {
+                overflow: hidden !importnat;
+            }

@@ -420,3 +420,35 @@
     /* Internet Explorer */
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
+
+//examples li
+.landing-create-examples {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 1110px;
+    padding: 25px @menu-block-padding-top 25px 0;
+    margin: 0 auto;
+        list-style: none;
+        .landing-create-examples-create {
+            background-image: url(course/en/images/create-in-minutes.svg);
+        }
+        .landing-create-examples-share {
+            background-image: url(course/en/images/share-instantly.svg);
+        }
+        .landing-create-examples-inspired {
+            background-image: url(course/en/images/get-inspired.svg);
+        }
+        li {
+            list-style: none;
+            display: block;
+            width: 250px;
+            padding-top: 300px;
+            background-position: top;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    
+}

@@ -7,7 +7,37 @@
     background-color: @navigation-color;
     box-shadow: 0 2px 5px rgba(0,0,0,0.26);
     height: (@navigation-padding * 2) + @icon-size;
-
+    .mrvl-logo{
+     left: 20px;
+    color: transparent;
+    min-width: 35px;
+    max-width: 40px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: auto;
+    min-width: 150px;
+    background-image: url(course/en/images/SP_color@2x.svg);
+    background-repeat: no-repeat;
+    font-family: adobe-clean,sans-serif;
+    background-position: 0;
+    white-space: nowrap;
+    height: 66px;
+    padding-left: 42px;
+    background-size: 33px 32px;
+    line-height: 66px;
+    font-size: 2.08em;
+    font-weight: 300;
+    -webkit-animation-name: logo-appear;
+    animation-name: logo-appear;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    transition-timing-function: linear;    
+    }
+    
+    
+    
+    
     .ie8 & {
         max-width: @ie8-max-width;
         left: 0;

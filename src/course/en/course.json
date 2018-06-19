@@ -59,9 +59,9 @@
             "_boxmenu": {
                 "ariaRegion": "Menu",
                 "durationLabel": "",
-                "statusLabel": "Completition status",
                 "menuItem": "Menu item.",
-                "menuEnd": "You have reached the end of the menu."
+                "menuEnd": "You have reached the end of the menu.",
+                "statusLabel": "Completition status"
             }
         },
         "_learnerInfo": {

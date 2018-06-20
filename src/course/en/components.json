@@ -15,8 +15,8 @@
         },
         "_graphic": {
             "alt": "",
-            "large": "",
-            "small": "",
+            "large": "https://github.com/adaptlearning/documentation/raw/master/04_wiki_assets/adapt_framework/adapt-logo_208x200.gif",
+            "small": "http://minionslovebananas.com/images/check-in-minion.jpg",
             "attribution":""
         }
 	},
@@ -27,7 +27,7 @@
         "_parentId": "a1_b1",
         "_type":"component",
         "_component":"graphic",
-        "_classes":"",
+        "_classes":"responsiveout",
         "_layout":"right",
         "title":"videopost",
         "displayTitle":"",
@@ -44,10 +44,31 @@
 			"alt": "Placeholder."
 		}
     },
-
-
+    
     {
         "_id": "a1_b1_c3",
+        "_parentId": "a1_b1",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"margin-left-none",
+        "_layout":"right",
+        "title":"videopost",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": "",
+            "attribution":""
+        },
+         "_video": {
+			"src": "course/en/video/postone.mp4",
+			"alt": "Placeholder."
+		}
+    },
+    {
+        "_id": "a1_b1_c4",
         "_parentId": "a1_b2",
         "_type": "component",
         "_component": "media",
@@ -74,8 +95,8 @@
         ]
         },
         "_playerOptions": {
-            "poster": "",
-            "showPosterWhenEnded": false,
+            "poster": "course/en/images/poster2.png",
+            "showPosterWhenEnded": true,
             "defaultVideoWidth": 480,
             "defaultVideoHeight": 270,
             "videoWidth": -1,
@@ -117,13 +138,13 @@
 
     
   {
-        "_id": "a1_b1_c4",
+        "_id": "a1_b1_c5",
         "_parentId": "a1_b3",
         "_type": "component",
         "_component": "text",
-        "_classes": "customgreen",
+        "_classes": "",
         "_layout": "left",
-        "title": "Introduction",
+        "title": "Begin",
         "displayTitle": "",
         "body": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br>These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
         "instruction": "Scroll down to see what presentation components are available as part of the Version 2.0 core bundle.",
@@ -131,6 +152,102 @@
             "_isEnabled": true
         }
 	},
+    {
+        "_id": "a1_b1_c6",
+        "_parentId": "a1_b3",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"margin-left-none",
+        "_layout":"right",
+        "title":"videopost",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": "",
+            "attribution":""
+        },
+         "_video": {
+			"src": "course/en/video/postfour.mp4",
+			"alt": "Placeholder."
+		}
+    },
+    {
+        "_id": "a1_b1_c7",
+        "_parentId": "a1_b4",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Begin",
+        "displayTitle": "",
+        "body": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br>These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
+        "instruction": "Scroll down to see what presentation components are available as part of the Version 2.0 core bundle.",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "a1_b1_c8",
+        "_parentId": "a1_b4",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"margin-left-none",
+        "_layout":"right",
+        "title":"videopost",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": "",
+            "attribution":""
+        },
+         "_video": {
+			"src": "course/en/video/posttwo.mp4",
+			"alt": "Placeholder."
+		}
+    },
+   {
+        "_id": "a1_b1_c9",
+        "_parentId": "a1_b5",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Begin",
+        "displayTitle": "",
+        "body": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br>These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
+        "instruction": "Scroll down to see what presentation components are available as part of the Version 2.0 core bundle.",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "a1_b1_c10",
+        "_parentId": "a1_b5",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"margin-left-none",
+        "_layout":"right",
+        "title":"videopost",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": "",
+            "attribution":""
+        },
+         "_video": {
+			"src": "course/en/video/postthree.mp4",
+			"alt": "Placeholder."
+		}
+    },
     
     
 

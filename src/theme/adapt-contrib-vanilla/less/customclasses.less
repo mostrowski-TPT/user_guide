@@ -138,6 +138,18 @@
     }
 }
 
+.customlightgrey {
+    background-color: @customgreytwo !important;
+    color: @customdarkone;
+    font-weight: 500;
+    .component-inner {
+        background-color: @customgreytwo !important;
+        .component-title-inner {
+            color: @customdarkone;
+        }
+    }
+}
+
 .customdarkone {
     background-color: @customdarkone !important;
     color: #fff;
@@ -161,22 +173,6 @@
         }
     }
 }
-
-.fullblock {
-    .block-inner {
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-        max-width: 100% !important;
-    }
-}
-
-
-
-
-
-
-
-
 
 
 
@@ -220,3 +216,30 @@
 a {
     color: @customdarktwo !important;
 }
+
+//useful for media
+.fullblock {
+    .block-inner {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        max-width: 100% !important;
+    }
+}
+
+.margin-left-none {
+    .component-inner{
+        margin-left: 0px;
+    }
+    
+}
+
+@media all and (max-width: @device-width-medium){
+  .responsiveout {
+    visibility: collapse;
+      overflow: hidden;
+      height: 1px;
+}    
+}
+
+
+

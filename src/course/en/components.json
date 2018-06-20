@@ -142,12 +142,12 @@
         "_parentId": "a1_b3",
         "_type": "component",
         "_component": "text",
-        "_classes": "",
+        "_classes": "greentitle",
         "_layout": "left",
-        "title": "Begin",
-        "displayTitle": "",
-        "body": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br>These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
-        "instruction": "Scroll down to see what presentation components are available as part of the Version 2.0 core bundle.",
+        "title": "Graphic modification",
+        "displayTitle": "1.",
+        "body": "First, pick the size of your graphic. Spark Post enables you to select from pre-made templates dsigned for specific kind of social media service.",
+        "instruction": "",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
@@ -179,14 +179,13 @@
         "_parentId": "a1_b4",
         "_type": "component",
         "_component": "text",
-        "_classes": "",
+        "_classes": "greentitle",
         "_layout": "left",
         "title": "Begin",
-        "displayTitle": "",
-        "body": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br>These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
-        "instruction": "Scroll down to see what presentation components are available as part of the Version 2.0 core bundle.",
+        "displayTitle": "2.",
+        "body": "Then you can chose from various style and filter templates for your grahic. You can also make your own by modifying the given ones.",
         "_pageLevelProgress": {
-            "_isEnabled": true
+            "_isEnabled": false
         }
 	},
     {
@@ -216,14 +215,14 @@
         "_parentId": "a1_b5",
         "_type": "component",
         "_component": "text",
-        "_classes": "",
+        "_classes": "greentitle",
         "_layout": "left",
         "title": "Begin",
-        "displayTitle": "",
-        "body": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br>These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
-        "instruction": "Scroll down to see what presentation components are available as part of the Version 2.0 core bundle.",
+        "displayTitle": "3.",
+        "body": "Modify your graphic, placement and size of the elements by simply pointing at them and moving around.",
+        "instruction": "",
         "_pageLevelProgress": {
-            "_isEnabled": true
+            "_isEnabled": false
         }
 	},
     {

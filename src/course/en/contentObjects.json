@@ -1,6 +1,6 @@
 [
 	{
-		"_id": "co-05",
+		"_id": "page1",
 		"_parentId": "course",
 		"_type": "page",
 		"_classes": "",
@@ -8,9 +8,13 @@
 		"displayTitle": "Spark Post",
 		"body": "Create stunning graphics - in seconds. <br> Pick a photo, add text and apply design filters to instantly stand out from the crowd on social.",
 		"pageBody": "",
-		"instruction": "Scroll down to see what presentation components are available as part of the Version 2.0 core bundle.",
+		"instruction": "Scroll down to see Spark Post functionalities",
         "_video": {
 			"src": "course/en/video/landing-animation-post.mp4",
+			"alt": "Placeholder."
+		},
+        "_logo": {
+			"src": "course/en/images/post.svg",
 			"alt": "Placeholder."
 		},
 		"linkText": "View",
@@ -20,7 +24,7 @@
 		}
 	},
 	{
-		"_id": "co-10",
+		"_id": "page2",
 		"_parentId": "course",
 		"_type": "page",
 		"_classes": "",
@@ -28,12 +32,15 @@
 		"displayTitle": "Spark Page",
 		"body": "Turn words and images into beautiful&nbsp;web&nbsp;pages&nbsp;-&nbsp;in&nbsp;minutes. <br> Turn words and images into beautiful, magazine&#8209;style&nbsp;web&nbsp;stories that will impress&#8209;readers&#8209;on&#8209;any device.",
 		"pageBody": "Without a range of question components, we can’t easily measure if learners are meeting the intended course objectives, provide guidance and feedback if they’re not, or give them opportunities to practise in a ‘safe environment’.<br><br>Discover what question components are available within the framework, along with some tips on how to use them.",
-		"instruction": "Scroll down to see what question components are available as part of the Version 2.0 core bundle.",
+		"instruction": "Scroll down to see Spark Page functionalities",
         "_video": {
 			"src": "course/en/video/landing-animation-page.mp4",
 			"alt": "Placeholder."
 		},
-        
+        "_logo": {
+			"src": "course/en/images/slate.svg",
+			"alt": "Placeholder."
+		},
 		"linkText": "View",
 		"duration": "",
 		"_pageLevelProgress": {
@@ -41,7 +48,7 @@
 		}
 	},
 	{
-		"_id": "co-15",
+		"_id": "page3",
 		"_parentId": "course",
 		"_type": "page",
 		"_classes": "assessment",
@@ -49,10 +56,14 @@
 		"displayTitle": "Spark Video",
 		"body": "Create compelling video stories - in minutes. <br> Easily add photos, video clips, icons, or your own voice. Select from professional-quality soundtracks and cinematic motion—and voila!",
 		"pageBody": "We’ve put together a very short quiz to demonstrate the new assessment functionality. In this simple example there are two banks that each contain three questions with two being taken from each bank at random. The order in which the questions are presented is then also randomised, as is the order of each question’s options.",
-		"instruction": "Think you can get a perfect score? Scroll down to attempt the first question.",
+		"instruction": "Scroll down to see Spark Video functionalities",
         "_video": {
 			"src": "course/en/video/landing-animation-video.mp4",
 			"alt": "Placeholder graphic."
+		},
+        "_logo": {
+			"src": "course/en/images/voice.svg",
+			"alt": "Placeholder."
 		},
 		"linkText": "View",
 		"duration": "",

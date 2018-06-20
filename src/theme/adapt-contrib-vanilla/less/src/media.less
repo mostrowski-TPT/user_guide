@@ -1,4 +1,16 @@
 .media-component {
+    width: 100% !important;
+    .media-inner {
+        background-color: transparent;
+        color: @customdarkone;
+        .media-title-inner {
+            text-align: center;
+        }
+        .media-instruction-inner{
+            font-weight: 400;
+            text-align: center;
+        }
+    }
   .media-transcript {
     &:hover {
       color: @button-text-color-hover;
@@ -9,4 +21,8 @@
   	padding-left: 0px;
   	padding-right: 0px;
   }
+    .media-title-inner{
+        color: @customdarkone;
+        font-weight: 700;
+    }
 }

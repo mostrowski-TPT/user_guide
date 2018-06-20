@@ -9,7 +9,7 @@
     }
 
     .page-header-inner {
-        padding: @page-padding-top 0 @page-padding-bottom;
+        padding: @page-padding-top 0 (@page-padding-bottom * 0.5);
 
         @media all and (max-width: (@device-width-large + 20px)) {
             padding: @page-padding-top 20px @page-padding-bottom;
@@ -23,7 +23,7 @@
     .page-header-content {
         max-width: @device-width-large;
         margin: auto;
-        color: @foreground-color-inverted;
+        color: @customdarkone;
     }
 
     .page-header-content-inner {
@@ -44,5 +44,11 @@
         color: @customdarkone;
         margin-bottom: @page-instruction-margin-bottom;
         .instruction-text;
+
     }
+    .arrowdownpage {
+        cursor: default !important;
+    }
+
 }
+

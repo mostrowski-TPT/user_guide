@@ -1,7 +1,7 @@
 [
 	{
-		"_id": "a-05",
-		"_parentId": "co-05",
+		"_id": "page1_a1",
+		"_parentId": "page1",
 		"_type": "article",
 		"_classes": "",
 		"title": "a-05",
@@ -9,8 +9,8 @@
 		"body": ""
 	},
 	{
-		"_id": "a-10",
-		"_parentId": "co-10",
+		"_id": "page2_a1",
+		"_parentId": "page2",
 		"_type": "article",
 		"_classes": "",
 		"title": "a-10",
@@ -18,49 +18,8 @@
 		"body": ""
 	},
 	{
-		"_id": "a-15",
-		"_parentId": "co-15",
-		"_type": "article",
-		"_classes": "",
-		"title": "a-15",
-		"displayTitle": "",
-		"body": "",
-		"_assessment": {
-			"_isEnabled": true,
-			"_id": "a-15",
-			"_isPercentageBased": true,
-			"_scoreToPass": 75,
-			"_includeInTotalScore": true,
-			"_assessmentWeight": 1,
-			"_suppressMarking": false,
-			"_allowResetIfPassed": false,
-			"_banks": {
-				"_isEnabled": true,
-				"_split": "2,2",
-				"_randomisation": true
-			},
-			"_questions": {
-				"_resetType": "hard",
-				"_canShowFeedback": false,
-				"_canShowMarking": false,
-				"_canShowModelAnswer": false
-			},
-			"_isResetOnRevisit": true,
-			"_attempts": "infinite"
-		},
-		"_trickle": {
-			"_isEnabled": true,
-			"_button": {
-				"_isEnabled": true,
-				"text": "Continue",
-				"startText": "Continue",
-				"finalText": "Continue"
-			}
-		}
-	},
-	{
-		"_id": "a-20",
-		"_parentId": "co-15",
+		"_id": "page3_a1",
+		"_parentId": "page3",
 		"_type": "article",
 		"_classes": "",
 		"title": "a-20",

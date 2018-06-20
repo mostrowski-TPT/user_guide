@@ -1,0 +1,70 @@
+<div class="menu-container" role="region" aria-label="{{_globals._menu._boxmenu.ariaRegion}}">
+    <div class='menu-container-inner box-menu-inner clearfix'>
+        <div class="menu-header">
+            <div class="menu-header-inner">
+                {{#if displayTitle}}
+                <div class="menu-title">
+                    <div class="menu-title-inner h1" role="heading" aria-level="1" tabindex="0">
+                        {{{compile displayTitle}}}
+                    </div>
+                </div>
+                {{/if}} {{#if body}}
+                <div class="menu-body">
+                    <div class="menu-body-inner">
+                        {{{compile_a11y_text body}}}
+                        <!--my code-->
+                        <br><br>
+                        <div class="getstarted-body-button">
+                            <button aria-label="{{linkText}} {{#if _isVisited}}{{_globals._accessibility._ariaLabels.visited}}{{/if}}" onclick="window.location.href='https://spark.adobe.com/sp/login'">Get started now</button>
+                        </div>
+                        <div class="menu-body-button">
+                            <button aria-label="{{linkText}} {{#if _isVisited}}{{_globals._accessibility._ariaLabels.visited}}{{/if}}" onclick="window.location.href='https://www.youtube.com/watch?v=ZWEVOghjkaw'"><span class="arrow">&#10148;</span>&nbsp;Watch Video</button>
+                        </div>
+                        <br><br><br>
+
+
+                        <ul class="landing-create-examples">
+                            <li class="landing-create-examples-create">
+                                <div class="landing-create-examples-text-container">
+                                    <h3>Create in minutes</h3>
+                                    <p>Anyone can shine. No design expertise needed.</p>
+                                </div>
+                            </li>
+                            <li class="landing-create-examples-share">
+                                <div class="landing-create-examples-text-container">
+                                    <h3>Share instantly</h3>
+                                    <p>Impress your friends and influence the world.</p>
+                                </div>
+                            </li>
+                            <li class="landing-create-examples-inspired">
+                                <div class="landing-create-examples-text-container">
+                                    <h3>Get inspired</h3>
+                                    <p>Ignite your storytelling with our curated designs, inspiration gallery, and blog.</p>
+                                </div>
+                            </li>
+                        </ul>
+
+
+                        <div class="learnmore" onclick="window.scrollTo(0,1000);">
+                            <a >Learn more</a><br>
+                            <div class="arrowdown">&#10148;</div>
+                            <br>
+                        </div>
+
+                        <div>
+                            <p class="menu-body-bigtext">What can you create with Adobe Spark?</p>
+                        </div>
+
+
+
+                        <!--mu code-->
+                    </div>
+                </div>
+                {{/if}}
+            </div>
+        </div>
+
+
+    </div>
+    <div class="aria-label relative a11y-ignore-focus prevent-default" tabindex="0" role="region">{{_globals._menu._boxmenu.menuEnd}}</div>
+</div>

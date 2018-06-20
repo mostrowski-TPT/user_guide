@@ -9,7 +9,9 @@
     
     
      {{#if _video.src}}
-            <video class="menu-item-video" src="{{_video.src}}" alt="{{_video.alt}}" autoplay loop />
+           <div class="graphic-widget component-widget{{#if _graphic.attribution}} graphic-widget-attribution{{/if}}">
+      <video class="a11y-ignore menu-item-video" autoplay loop muted src="{{_video.src}}" {{#if _video.alt}} tabindex="0"{{else}}  aria-hidden="true" tabindex="-1"{{/if}}/>
+    </div>
         {{/if}}
         
 <!--    mycode    -->

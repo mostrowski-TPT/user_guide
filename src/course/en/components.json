@@ -8,10 +8,16 @@
         "_layout": "left",
         "title": "Introduction",
         "displayTitle": "",
-        "body": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br>These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
-        "instruction": "Scroll down to see what presentation components are available as part of the Version 2.0 core bundle.",
+        "body": "<b>Spark Post lets people create professional graphics in seconds.</b> <br><br><br> While it leverages concepts from Adobe’s pro tools like Photoshop and InDesign, like the ability to layer images with text and filters, it makes this accessible to everyday users who can make these sorts of changes just by tapping buttons.<br><br><br> Get started with our suggested professionally-designed template and make it your own with a few simple steps and turn your text and photo into a professional-looking graphic by simply applying your favorite theme. With Spark Post you don't need design experience to create beautiful images.",
+        "instruction": "",
         "_pageLevelProgress": {
             "_isEnabled": true
+        },
+        "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": "",
+            "attribution":""
         }
 	},
     
@@ -22,17 +28,21 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"left",
-        "title":"Here is a graphic object",
-        "displayTitle":"Here is a graphic object",
-        "body":"Hi everybody!",
+        "_layout":"right",
+        "title":"videopost",
+        "displayTitle":"",
+        "body":"",
         "instruction":"",
         "_graphic": {
-            "alt": "alt text",
-            "large": "https://github.com/adaptlearning/documentation/raw/master/04_wiki_assets/adapt_framework/adapt-logo_208x200.gif",
-            "small": "http://minionslovebananas.com/images/check-in-minion.jpg",
-            "attribution":"Copyright © 2015"
-        }
+            "alt": "",
+            "large": "",
+            "small": "",
+            "attribution":""
+        },
+         "_video": {
+			"src": "course/en/video/post1.mp4",
+			"alt": "Placeholder."
+		}
     },
 
 

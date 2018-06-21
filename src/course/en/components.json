@@ -263,8 +263,8 @@
         "_layout": "left",
         "title": "Introduction",
         "displayTitle": "",
-        "body": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br>These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
-        "instruction": "Scroll down to see what presentation components are available as part of the Version 2.0 core bundle.",
+        "body": "<b>Spark Page helps people craft web stories.</b><br><br>Spark Page will make your photos, videos, and text stand out with beautiful professional layouts.<br><br> Use photos from your own device, from your favorite cloud services, or search through thousands of free stock photos. It’s a simplified web editing platform, with tools that let you mix text and imagery in a highly visual way.",
+        "instruction": "",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
@@ -287,7 +287,7 @@
             "attribution":""
         },
          "_video": {
-			"src": "course/en/video/postone.mp4",
+			"src": "course/en/video/feature-page-glideshow.mp4",
 			"alt": "Placeholder."
 		}
     },
@@ -298,7 +298,7 @@
         "_component": "media",
         "_classes": "",
         "_layout": "full",
-        "title": "Uploading a picture",
+        "title": "Creating a page",
         "displayTitle": "",
         "body": "",
         "instruction": "Video below demonstrates how to begin page creation.",
@@ -366,9 +366,9 @@
         "_component": "text",
         "_classes": "greentitle",
         "_layout": "left",
-        "title": "Graphic modification",
+        "title": "Page edition",
         "displayTitle": "1.",
-        "body": "First, pick the size of your graphic. Spark Post enables you to select from pre-made templates dsigned for specific kind of social media service.",
+        "body": "You can add new elements from the bottom menu. Spark Page enables you to add photos, text, buttons, video files, sets of photos in the form of a grid or a glideshow",
         "instruction": "",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -391,8 +391,8 @@
             "small": "",
             "attribution":""
         },
-         "_video": {
-			"src": "course/en/video/postfour.mp4",
+         "_graphic": {
+			"src": "course/en/images/Spark Page.jpg",
 			"alt": "Placeholder."
 		}
     },
@@ -405,7 +405,7 @@
         "_layout": "left",
         "title": "Begin",
         "displayTitle": "2.",
-        "body": "Then you can chose from various style and filter templates for your grahic. You can also make your own by modifying the given ones.",
+        "body": "Then you can chose from various sizes and transitions for the consecutive elements by simply clicking on them and revealing context menu.",
         "_pageLevelProgress": {
             "_isEnabled": false
         }
@@ -427,29 +427,140 @@
             "small": "",
             "attribution":""
         },
-         "_video": {
-			"src": "course/en/video/posttwo.mp4",
+         "_graphic": {
+			"src": "course/en/images/pagesize.PNG",
 			"alt": "Placeholder."
 		}
     },
-   {
-        "_id": "p2_b1_c9",
-        "_parentId": "p2_b5",
+
+      
+    
+    
+    
+    
+    
+    {
+        "_id": "p3_b1_c1",
+        "_parentId": "p3_b1",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "customred",
+        "_layout": "left",
+        "title": "Introduction",
+        "displayTitle": "",
+        "body": "<b>Spark Video lets people create animated videos in minutes.</b><br><br>This isn’t a tool for filming content, however. Instead, you combine text, images, icons, video clips and themes in a presentation, then speak your voice over the story in order to create the videoWhether you want to gain a following, launch an idea, grow your business, or support a cause, video is the most engaging way to communicate on social.<br><br>Whether you want to gain a following, launch an idea, grow your business, or support a cause, video is the most engaging way to communicate on social. Easily combine video clips, photos, and icons into an engaging video. Add impact with text overlay—no design expertise required.",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+     {
+        "_id": "p3_b1_c2",
+        "_parentId": "p3_b1",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"responsiveout",
+        "_layout":"right",
+        "title":"videopost",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": "",
+            "attribution":""
+        },
+         "_graphic": {
+			"src": "course/en/images/feature-video-overlay-2x.gif",
+			"alt": "Placeholder."
+		}
+    },
+    {
+        "_id": "p3_b2_c3",
+        "_parentId": "p3_b2",
+        "_type": "component",
+        "_component": "media",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Creating a page",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "Video below demonstrates how to begin video creation.",
+        "_setCompletionOn": "inview",
+        "_useClosedCaptions": false,
+        "_startLanguage": "en",
+        "_allowFullScreen": true,
+        "_showVolumeControl": false,
+        "_startVolume": "0%",
+        "_playsinline": false,
+        "_media": {
+            "mp4": "course/en/video/videospark.mp4",
+            "cc": [
+                {
+                    "srclang": "",
+                    "src": ""
+            }
+        ]
+        },
+        "_playerOptions": {
+            "poster": "course/en/images/postervid.png",
+            "showPosterWhenEnded": true,
+            "defaultVideoWidth": 480,
+            "defaultVideoHeight": 270,
+            "videoWidth": -1,
+            "videoHeight": -1,
+            "defaultAudioWidth": 400,
+            "defaultAudioHeight": 30,
+            "defaultSeekBackwardInterval": "(media.duration * 0.05)",
+            "defaultSeekForwardInterval": "(media.duration * 0.05)",
+            "audioWidth": -1,
+            "audioHeight": -1,
+            "startVolume": 0.8,
+            "loop": false,
+            "autoRewind": true,
+            "enableAutosize": true,
+            "alwaysShowHours": false,
+            "showTimecodeFrameCount": false,
+            "framesPerSecond": 25,
+            "autosizeProgress": true,
+            "alwaysShowControls": false,
+            "hideVideoControlsOnLoad": false,
+            "clickToPlayPause": true,
+            "iPadUseNativeControls": false,
+            "iPhoneUseNativeControls": false,
+            "AndroidUseNativeControls": false,
+            "features": ["playpause", "current", "progress", "duration", "tracks", "volume", "fullscreen"],
+            "isVideo": true,
+            "enableKeyboard": true,
+            "pauseOtherPlayers": true,
+            "startLanguage": "",
+            "tracksText": "mejs.i18n.t('Captions/Subtitles')",
+            "hideCaptionsButtonWhenEmpty": true,
+            "toggleCaptionsButtonWhenOnlyOne": false,
+            "slidesSelector": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+},
+     {
+        "_id": "p3_b3_c7",
+        "_parentId": "p3_b3",
         "_type": "component",
         "_component": "text",
         "_classes": "greentitle",
         "_layout": "left",
         "title": "Begin",
-        "displayTitle": "3.",
-        "body": "Modify your graphic, placement and size of the elements by simply pointing at them and moving around.",
-        "instruction": "",
+        "displayTitle": "1.",
+        "body": "Add new slides by cliking '+' slide at the bottom",
         "_pageLevelProgress": {
             "_isEnabled": false
         }
 	},
     {
-        "_id": "p2_b1_c10",
-        "_parentId": "p2_b5",
+        "_id": "p3_b3_c8",
+        "_parentId": "p3_b3",
         "_type":"component",
         "_component":"graphic",
         "_classes":"margin-left-none",
@@ -465,28 +576,80 @@
             "attribution":""
         },
          "_video": {
-			"src": "course/en/video/postthree.mp4",
+			"src": "course/en/video/addslides.mp4",
 			"alt": "Placeholder."
 		}
-    },   
-    
-    
-    
-    
-    
+    },
     {
-        "_id": "a3_b1_c1",
-        "_parentId": "p3_b1",
+        "_id": "p3_b4_c7",
+        "_parentId": "p3_b4",
         "_type": "component",
         "_component": "text",
-        "_classes": "customred",
+        "_classes": "greentitle",
         "_layout": "left",
-        "title": "Introduction",
-        "displayTitle": "",
-        "body": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br>These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
-        "instruction": "Scroll down to see what presentation components are available as part of the Version 2.0 core bundle.",
+        "title": "Begin",
+        "displayTitle": "2.",
+        "body": "Then you can chose the size of desired slide.",
         "_pageLevelProgress": {
-            "_isEnabled": true
+            "_isEnabled": false
         }
-	}
+	},
+    {
+        "_id": "p3_b4_c8",
+        "_parentId": "p3_b4",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"margin-left-none",
+        "_layout":"right",
+        "title":"videopost",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": "",
+            "attribution":""
+        },
+         "_video": {
+			"src": "course/en/video/resize vid.mp4",
+			"alt": "Placeholder."
+		}
+    },
+    {
+        "_id": "p3_b4_c9",
+        "_parentId": "p3_b5",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "greentitle",
+        "_layout": "left",
+        "title": "Begin",
+        "displayTitle": "3.",
+        "body": "You can preview your video any time by clicking the 'previev' button at the top.",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        }
+	},
+    {
+        "_id": "p3_b4_c10",
+        "_parentId": "p3_b5",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"margin-left-none",
+        "_layout":"right",
+        "title":"videopost",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": "",
+            "attribution":""
+        },
+         "_video": {
+			"src": "course/en/video/postervid.png",
+			"alt": "Placeholder."
+		}
+    }
 ]

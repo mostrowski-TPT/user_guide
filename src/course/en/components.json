@@ -1,7 +1,7 @@
 [
     {
-        "_id": "a1_b1_c1",
-        "_parentId": "a1_b1",
+        "_id": "p1_b1_c1",
+        "_parentId": "p1_b1",
         "_type": "component",
         "_component": "text",
         "_classes": "customgreen",
@@ -23,8 +23,8 @@
     
     
     {
-        "_id": "a1_b1_c2",
-        "_parentId": "a1_b1",
+        "_id": "p1_b1_c2",
+        "_parentId": "p1_b1",
         "_type":"component",
         "_component":"graphic",
         "_classes":"responsiveout",
@@ -46,8 +46,8 @@
     },
     
     {
-        "_id": "a1_b1_c3",
-        "_parentId": "a1_b1",
+        "_id": "p1_b1_c3",
+        "_parentId": "p1_b1",
         "_type":"component",
         "_component":"graphic",
         "_classes":"margin-left-none",
@@ -68,8 +68,8 @@
 		}
     },
     {
-        "_id": "a1_b1_c4",
-        "_parentId": "a1_b2",
+        "_id": "p1_b1_c4",
+        "_parentId": "p1_b2",
         "_type": "component",
         "_component": "media",
         "_classes": "",
@@ -138,8 +138,8 @@
 
     
   {
-        "_id": "a1_b1_c5",
-        "_parentId": "a1_b3",
+        "_id": "p1_b1_c5",
+        "_parentId": "p1_b3",
         "_type": "component",
         "_component": "text",
         "_classes": "greentitle",
@@ -153,8 +153,8 @@
         }
 	},
     {
-        "_id": "a1_b1_c6",
-        "_parentId": "a1_b3",
+        "_id": "p1_b1_c6",
+        "_parentId": "p1_b3",
         "_type":"component",
         "_component":"graphic",
         "_classes":"margin-left-none",
@@ -175,8 +175,8 @@
 		}
     },
     {
-        "_id": "a1_b1_c7",
-        "_parentId": "a1_b4",
+        "_id": "p1_b1_c7",
+        "_parentId": "p1_b4",
         "_type": "component",
         "_component": "text",
         "_classes": "greentitle",
@@ -189,8 +189,8 @@
         }
 	},
     {
-        "_id": "a1_b1_c8",
-        "_parentId": "a1_b4",
+        "_id": "p1_b1_c8",
+        "_parentId": "p1_b4",
         "_type":"component",
         "_component":"graphic",
         "_classes":"margin-left-none",
@@ -211,8 +211,8 @@
 		}
     },
    {
-        "_id": "a1_b1_c9",
-        "_parentId": "a1_b5",
+        "_id": "p1_b1_c9",
+        "_parentId": "p1_b5",
         "_type": "component",
         "_component": "text",
         "_classes": "greentitle",
@@ -226,8 +226,8 @@
         }
 	},
     {
-        "_id": "a1_b1_c10",
-        "_parentId": "a1_b5",
+        "_id": "p1_b1_c10",
+        "_parentId": "p1_b5",
         "_type":"component",
         "_component":"graphic",
         "_classes":"margin-left-none",
@@ -250,9 +250,13 @@
     
     
 
+    
+    
+    
+    
     {
-        "_id": "a2_b1_c1",
-        "_parentId": "a2_b1",
+        "_id": "p2_b1_c1",
+        "_parentId": "p2_b1",
         "_type": "component",
         "_component": "text",
         "_classes": "customblue",
@@ -265,11 +269,214 @@
             "_isEnabled": true
         }
 	},
+    {
+        "_id": "p2_b1_c2",
+        "_parentId": "p2_b1",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"margin-left-none",
+        "_layout":"right",
+        "title":"videopost",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": "",
+            "attribution":""
+        },
+         "_video": {
+			"src": "course/en/video/postone.mp4",
+			"alt": "Placeholder."
+		}
+    },
+    {
+        "_id": "p2_b3_c3",
+        "_parentId": "p2_b2",
+        "_type": "component",
+        "_component": "media",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Uploading a picture",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "Video below demonstrates how to begin page creation.",
+        "_setCompletionOn": "inview",
+        "_useClosedCaptions": false,
+        "_startLanguage": "en",
+        "_allowFullScreen": true,
+        "_showVolumeControl": false,
+        "_startVolume": "0%",
+        "_playsinline": false,
+        "_media": {
+            "mp4": "course/en/video/page.mp4",
+            "cc": [
+                {
+                    "srclang": "",
+                    "src": ""
+            }
+        ]
+        },
+        "_playerOptions": {
+            "poster": "course/en/images/postposter.png",
+            "showPosterWhenEnded": true,
+            "defaultVideoWidth": 480,
+            "defaultVideoHeight": 270,
+            "videoWidth": -1,
+            "videoHeight": -1,
+            "defaultAudioWidth": 400,
+            "defaultAudioHeight": 30,
+            "defaultSeekBackwardInterval": "(media.duration * 0.05)",
+            "defaultSeekForwardInterval": "(media.duration * 0.05)",
+            "audioWidth": -1,
+            "audioHeight": -1,
+            "startVolume": 0.8,
+            "loop": false,
+            "autoRewind": true,
+            "enableAutosize": true,
+            "alwaysShowHours": false,
+            "showTimecodeFrameCount": false,
+            "framesPerSecond": 25,
+            "autosizeProgress": true,
+            "alwaysShowControls": false,
+            "hideVideoControlsOnLoad": false,
+            "clickToPlayPause": true,
+            "iPadUseNativeControls": false,
+            "iPhoneUseNativeControls": false,
+            "AndroidUseNativeControls": false,
+            "features": ["playpause", "current", "progress", "duration", "tracks", "volume", "fullscreen"],
+            "isVideo": true,
+            "enableKeyboard": true,
+            "pauseOtherPlayers": true,
+            "startLanguage": "",
+            "tracksText": "mejs.i18n.t('Captions/Subtitles')",
+            "hideCaptionsButtonWhenEmpty": true,
+            "toggleCaptionsButtonWhenOnlyOne": false,
+            "slidesSelector": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+},
+ {
+        "_id": "p2_b1_c5",
+        "_parentId": "p2_b3",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "greentitle",
+        "_layout": "left",
+        "title": "Graphic modification",
+        "displayTitle": "1.",
+        "body": "First, pick the size of your graphic. Spark Post enables you to select from pre-made templates dsigned for specific kind of social media service.",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    {
+        "_id": "p2_b1_c6",
+        "_parentId": "p2_b3",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"margin-left-none",
+        "_layout":"right",
+        "title":"videopost",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": "",
+            "attribution":""
+        },
+         "_video": {
+			"src": "course/en/video/postfour.mp4",
+			"alt": "Placeholder."
+		}
+    },
+    {
+        "_id": "p2_b1_c7",
+        "_parentId": "p2_b4",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "greentitle",
+        "_layout": "left",
+        "title": "Begin",
+        "displayTitle": "2.",
+        "body": "Then you can chose from various style and filter templates for your grahic. You can also make your own by modifying the given ones.",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        }
+	},
+    {
+        "_id": "p2_b1_c8",
+        "_parentId": "p2_b4",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"margin-left-none",
+        "_layout":"right",
+        "title":"videopost",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": "",
+            "attribution":""
+        },
+         "_video": {
+			"src": "course/en/video/posttwo.mp4",
+			"alt": "Placeholder."
+		}
+    },
+   {
+        "_id": "p2_b1_c9",
+        "_parentId": "p2_b5",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "greentitle",
+        "_layout": "left",
+        "title": "Begin",
+        "displayTitle": "3.",
+        "body": "Modify your graphic, placement and size of the elements by simply pointing at them and moving around.",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        }
+	},
+    {
+        "_id": "p2_b1_c10",
+        "_parentId": "p2_b5",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"margin-left-none",
+        "_layout":"right",
+        "title":"videopost",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": "",
+            "attribution":""
+        },
+         "_video": {
+			"src": "course/en/video/postthree.mp4",
+			"alt": "Placeholder."
+		}
+    },   
+    
+    
+    
     
     
     {
         "_id": "a3_b1_c1",
-        "_parentId": "a3_b1",
+        "_parentId": "p3_b1",
         "_type": "component",
         "_component": "text",
         "_classes": "customred",

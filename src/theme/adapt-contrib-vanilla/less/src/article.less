@@ -5,13 +5,15 @@
     background-color: @customgreytwo;
 
     .article-inner {
-        padding: @article-padding-top 0 @article-padding-bottom;
+        padding-bottom: 0px !important;
+        padding: @article-padding-top 0 (@article-padding-bottom*0);
         @media all and (max-width: (@device-width-large + 20px)) {
             padding: (@article-padding-top / 2) 0 (@article-padding-bottom / 2);
         }
         @media all and (max-width: (@device-width-small + 20px)) {
             padding: (@article-padding-top / 3) 0 (@article-padding-bottom / 3);
         }
+        
     }
 
     .article-header {

@@ -93,7 +93,7 @@
 .customgreen {
     background-color: @customgreen !important;
     color: #fff;
-    font-weight: 500;
+    font-weight: 500 !importnat;
     .component-inner {
         background-color: @customgreen !important;
         .component-title-inner {
@@ -220,9 +220,12 @@
 
 
 //hyperlink
-a {
-    color: @customdarktwo !important;
+.learnmore {
+    a {
+       color: @customdarktwo !important;  
+    } 
 }
+
 
 //useful for media
 .fullblock {
@@ -248,5 +251,32 @@ a {
 }    
 }
 
+//footers
 
+.link1 {
+    background-color: @customgreen;
+    color: #fff;
+    font-weight: 700 !importnat;
+    &:hover {
+       
+    }
+   
+}
 
+.link2 {
+    background-color: @customblue;
+    color: #fff;
+    font-weight: 700 !importnat;
+    &:hover {
+        
+    }
+}
+
+.link3 {
+    background-color: @customred;
+    color: #fff;
+    font-weight: 700 !importnat;
+     &:hover {
+     
+    }
+}

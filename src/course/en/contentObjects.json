@@ -21,7 +21,9 @@
 		"duration": "",
 		"_pageLevelProgress": {
 			"_isEnabled": true
-		}
+		},
+        "footer": "<a href='#page2' class='customblue'>Learn Spark Page</a>",
+        "footertwo": "<a href='#page3' class='customred'>Learn Spark Video</a>"
 	},
 	{
 		"_id": "page2",
@@ -45,7 +47,9 @@
 		"duration": "",
 		"_pageLevelProgress": {
 			"_isEnabled": true
-		}
+		},
+        "footer": "<a href='#page3' class='customred'>Learn Spark Video</a>",
+        "footertwo": "<a href='#page1' class='customgreen'>Learn Spark Post</a>"
 	},
 	{
 		"_id": "page3",
@@ -69,6 +73,8 @@
 		"duration": "",
 		"_pageLevelProgress": {
 			"_isEnabled": true
-		}
+		},
+        "footer": "<a href='#page1' class='customgreen'>Learn Spark Post</a>",
+        "footertwo": "<a href='#page2' class='customblue'>Learn Spark Page</a>"
 	}
 ]

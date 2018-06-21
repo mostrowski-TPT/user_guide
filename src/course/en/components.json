@@ -20,31 +20,6 @@
             "attribution":""
         }
 	},
-    
-    
-    {
-        "_id": "p1_b1_c2",
-        "_parentId": "p1_b1",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"responsiveout",
-        "_layout":"right",
-        "title":"videopost",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "",
-            "large": "",
-            "small": "",
-            "attribution":""
-        },
-         "_video": {
-			"src": "course/en/video/post1.mp4",
-			"alt": "Placeholder."
-		}
-    },
-    
     {
         "_id": "p1_b1_c3",
         "_parentId": "p1_b1",

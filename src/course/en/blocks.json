@@ -49,8 +49,6 @@
         "body": "",
         "_trackingId": 23
     },
-    
-    
     {
         "_id": "p2_b1",
         "_parentId": "page2_a1",
@@ -69,9 +67,9 @@
         "title": "b-10",
         "displayTitle": "",
         "body": "",
-        "_trackingId": 1
+        "_trackingId": 24
     },
-     {
+    {
         "_id": "p2_b3",
         "_parentId": "page2_a1",
         "_type": "block",
@@ -79,7 +77,7 @@
         "title": "b-05",
         "displayTitle": "Further edition of a page",
         "body": "",
-        "_trackingId": 21
+        "_trackingId": 25
     },
     {
         "_id": "p2_b4",
@@ -89,11 +87,8 @@
         "title": "b-05",
         "displayTitle": "",
         "body": "",
-        "_trackingId": 22
+        "_trackingId": 26
     },
-  
-    
-    
     {
         "_id": "p3_b1",
         "_parentId": "page3_a1",
@@ -112,9 +107,9 @@
         "title": "b-15",
         "displayTitle": "",
         "body": "",
-        "_trackingId": 2
+        "_trackingId": 27
     },
-     {
+    {
         "_id": "p3_b3",
         "_parentId": "page3_a1",
         "_type": "block",
@@ -122,7 +117,7 @@
         "title": "b-15",
         "displayTitle": "Editing your video",
         "body": "",
-        "_trackingId": 2
+        "_trackingId": 28
     },
     {
         "_id": "p3_b4",
@@ -132,7 +127,7 @@
         "title": "b-15",
         "displayTitle": "",
         "body": "",
-        "_trackingId": 2
+        "_trackingId": 29
     },
     {
         "_id": "p3_b5",
@@ -142,7 +137,6 @@
         "title": "b-15",
         "displayTitle": "",
         "body": "",
-        "_trackingId": 2
+        "_trackingId": 30
     }
 ]
-

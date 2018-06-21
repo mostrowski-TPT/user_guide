@@ -55,8 +55,8 @@
 
 .drawer {
     .page-level-progress-item-title {
-    	background-color: @drawer-item-color;
-    	color: @drawer-item-text-color;
+    	background-color: @customgreytwo;
+    	color: @customdarkone!important;
         .transition-all-colors;
 
     	&.drawer-item-open.disabled {
@@ -111,3 +111,10 @@
         }
     }
 }
+.drawer-close {
+        float: right;
+    color: @customdarkone!important;
+        .dir-rtl & {
+            float: left;
+        }
+    }

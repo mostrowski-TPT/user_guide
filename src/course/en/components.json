@@ -483,7 +483,7 @@
         "_component": "media",
         "_classes": "",
         "_layout": "full",
-        "title": "Creating a page",
+        "title": "Creating a video",
         "displayTitle": "",
         "body": "",
         "instruction": "Video below demonstrates how to begin video creation.",
@@ -551,11 +551,11 @@
         "_component": "text",
         "_classes": "greentitle",
         "_layout": "left",
-        "title": "Begin",
+        "title": "Editing video",
         "displayTitle": "1.",
         "body": "Add new slides by cliking '+' slide at the bottom",
         "_pageLevelProgress": {
-            "_isEnabled": false
+            "_isEnabled": true
         }
 	},
     {

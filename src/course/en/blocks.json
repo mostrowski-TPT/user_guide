@@ -17,7 +17,7 @@
         "title": "b-05",
         "displayTitle": "",
         "body": "",
-        "_trackingId": 0
+        "_trackingId": 20
     },
     {
         "_id": "a1_b3",
@@ -27,7 +27,7 @@
         "title": "b-05",
         "displayTitle": "Creating your graphic from uploaded picture",
         "body": "",
-        "_trackingId": 0
+        "_trackingId": 21
     },
     {
         "_id": "a1_b4",
@@ -37,7 +37,7 @@
         "title": "b-05",
         "displayTitle": "",
         "body": "",
-        "_trackingId": 0
+        "_trackingId": 22
     },
     {
         "_id": "a1_b5",
@@ -47,10 +47,8 @@
         "title": "b-05",
         "displayTitle": "",
         "body": "",
-        "_trackingId": 0
+        "_trackingId": 23
     },
-  
-    
     {
         "_id": "a2_b1",
         "_parentId": "page2_a1",

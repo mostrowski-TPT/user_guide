@@ -55,11 +55,11 @@
 		"_id": "page3",
 		"_parentId": "course",
 		"_type": "page",
-		"_classes": "assessment",
+		"_classes": "",
 		"title": "Spark Video",
 		"displayTitle": "Spark Video",
 		"body": "Create compelling video stories - in minutes. <br> Easily add photos, video clips, icons, or your own voice. Select from professional-quality soundtracks and cinematic motion—and voila!",
-		"pageBody": "We’ve put together a very short quiz to demonstrate the new assessment functionality. In this simple example there are two banks that each contain three questions with two being taken from each bank at random. The order in which the questions are presented is then also randomised, as is the order of each question’s options.",
+		"pageBody": "Create and share compelling videos that extend your reach and inspire your audience to action.",
 		"instruction": "Scroll down to see Spark Video functionalities",
         "_video": {
 			"src": "course/en/video/landing-animation-video.mp4",
